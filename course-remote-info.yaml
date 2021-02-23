@@ -3,7 +3,7 @@ hyperskill_project:
   ide_files: https://stepik.org/media/attachments/lesson/371177/additional_files.json
   is_template_based: true
   use_ide: true
-update_date: Mon, 22 Feb 2021 20:47:10 UTC
+update_date: Tue, 23 Feb 2021 13:08:20 UTC
 stages:
 - id: 614
   step: 9925
@@ -19,7 +19,7 @@ stages:
   is_completed: true
 - id: 618
   step: 9929
-  is_completed: false
+  is_completed: true
 topics:
   0:
   - title: Introduction to Java
