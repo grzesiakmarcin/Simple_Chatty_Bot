@@ -3,6 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Simple_Chatty_Bot.iml" filepath="$PROJECT_DIR$/.idea/modules/Simple_Chatty_Bot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/IntBinaryOperation/Simple_Chatty_Bot.Problems-IntBinaryOperation.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/IntBinaryOperation/Simple_Chatty_Bot.Problems-IntBinaryOperation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/IntBinaryOperation/Simple_Chatty_Bot.Problems-IntBinaryOperation.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/IntBinaryOperation/Simple_Chatty_Bot.Problems-IntBinaryOperation.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/IntBinaryOperation/Simple_Chatty_Bot.Problems-IntBinaryOperation.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/IntBinaryOperation/Simple_Chatty_Bot.Problems-IntBinaryOperation.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Simple Chatty Bot/task/Simple_Chatty_Bot.Simple_Chatty_Bot-task.iml" filepath="$PROJECT_DIR$/.idea/modules/Simple Chatty Bot/task/Simple_Chatty_Bot.Simple_Chatty_Bot-task.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Simple Chatty Bot/task/Simple_Chatty_Bot.Simple_Chatty_Bot-task.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Simple Chatty Bot/task/Simple_Chatty_Bot.Simple_Chatty_Bot-task.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Simple Chatty Bot/task/Simple_Chatty_Bot.Simple_Chatty_Bot-task.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Simple Chatty Bot/task/Simple_Chatty_Bot.Simple_Chatty_Bot-task.test.iml" />
