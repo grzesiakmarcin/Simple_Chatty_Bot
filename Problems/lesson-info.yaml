@@ -2,3 +2,4 @@ content:
 - IntBinaryOperation
 - Palindrome
 - Throw an unchecked exception
+- Days of the week
