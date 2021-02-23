@@ -3,7 +3,7 @@ import java.util.*;
 public class Main {
 
     public static String getDayOfWeekName(int number) {
-        String day = "";
+        String day = null;
 
 
         switch (number) {
@@ -32,7 +32,12 @@ public class Main {
                 throw new IllegalArgumentException();
 
         }
-        return day;
+        try {
+            return day;
+        }
+        catch (NullPointerException e){
+            return e.getClass().getName();
+        }
     }
 
     /* Do not change code below */

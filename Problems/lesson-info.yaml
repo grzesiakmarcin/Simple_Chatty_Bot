@@ -4,3 +4,4 @@ content:
 - Throw an unchecked exception
 - Days of the week
 - Throw a checked exception
+- Return empty string when argument is null
