@@ -3,6 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Simple_Chatty_Bot.iml" filepath="$PROJECT_DIR$/.idea/modules/Simple_Chatty_Bot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Avoid NPE/Simple_Chatty_Bot.Problems-Avoid_NPE.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Avoid NPE/Simple_Chatty_Bot.Problems-Avoid_NPE.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Avoid NPE/Simple_Chatty_Bot.Problems-Avoid_NPE.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Avoid NPE/Simple_Chatty_Bot.Problems-Avoid_NPE.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Avoid NPE/Simple_Chatty_Bot.Problems-Avoid_NPE.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Avoid NPE/Simple_Chatty_Bot.Problems-Avoid_NPE.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Days of the week/Simple_Chatty_Bot.Problems-Days_of_the_week.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Days of the week/Simple_Chatty_Bot.Problems-Days_of_the_week.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Days of the week/Simple_Chatty_Bot.Problems-Days_of_the_week.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Days of the week/Simple_Chatty_Bot.Problems-Days_of_the_week.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Days of the week/Simple_Chatty_Bot.Problems-Days_of_the_week.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Days of the week/Simple_Chatty_Bot.Problems-Days_of_the_week.test.iml" />
