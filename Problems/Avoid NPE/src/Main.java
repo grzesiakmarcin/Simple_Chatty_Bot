@@ -9,5 +9,7 @@ class FixingNullPointerException {
         /* Do not change code above */
 
         System.out.println(Objects.equals(string,null) ? "NPE!": string.toLowerCase());
+
+        throw new NegativeArraySizeException()
     }
 }
