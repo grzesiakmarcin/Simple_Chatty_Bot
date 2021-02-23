@@ -2,7 +2,7 @@ import java.util.*;
 
 public class Main {
 
-    public static String getDayOfWeekName(int number) throws IllegalArgumentException {
+    public static String getDayOfWeekName(int number) {
         String day = "";
 
 
