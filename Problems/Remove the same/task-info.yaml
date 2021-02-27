@@ -10,9 +10,8 @@ files:
     }
   learner_created: false
 feedback_link: https://hyperskill.org/learn/step/12400#comment
-status: Failed
+status: Solved
 feedback:
-  message: |
-    Failed test #4 of 5. Wrong answer
-  time: Sat, 27 Feb 2021 08:36:19 UTC
+  message: <html>Correct solution</html>
+  time: Sat, 27 Feb 2021 09:56:06 UTC
 record: -1

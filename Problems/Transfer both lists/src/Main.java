@@ -10,13 +10,13 @@ class ListOperations {
 
         arrayList.clear();
 
-        for (int i =0; i<copiedLinkedList.size();i++){
-            arrayList.add(i,copiedLinkedList.get(i));
+        for (int i = 0; i < copiedLinkedList.size(); i++) {
+            arrayList.add(i, copiedLinkedList.get(i));
         }
 
         linkedList.clear();
-        for (int i =0; i<copiedArrayList.size();i++){
-            linkedList.add(i,copiedArrayList.get(i));
+        for (int i = 0; i < copiedArrayList.size(); i++) {
+            linkedList.add(i, copiedArrayList.get(i));
         }
 
     }
