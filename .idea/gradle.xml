@@ -13,6 +13,7 @@
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/Problems/Are siblings" />
             <option value="$PROJECT_DIR$/Problems/Avoid NPE" />
+            <option value="$PROJECT_DIR$/Problems/Countries and capitals" />
             <option value="$PROJECT_DIR$/Problems/Days of the week" />
             <option value="$PROJECT_DIR$/Problems/IntBinaryOperation" />
             <option value="$PROJECT_DIR$/Problems/Multiple swaps" />
@@ -23,6 +24,7 @@
             <option value="$PROJECT_DIR$/Problems/Sherlock Holmes and the mystery of anagrams" />
             <option value="$PROJECT_DIR$/Problems/The fair exchange" />
             <option value="$PROJECT_DIR$/Problems/The first day of a month or not" />
+            <option value="$PROJECT_DIR$/Problems/The same pairs" />
             <option value="$PROJECT_DIR$/Problems/Throw a checked exception" />
             <option value="$PROJECT_DIR$/Problems/Throw an unchecked exception" />
             <option value="$PROJECT_DIR$/Problems/Transfer both lists" />
