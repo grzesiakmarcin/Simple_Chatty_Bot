@@ -18,11 +18,13 @@
             <option value="$PROJECT_DIR$/Problems/Multiple swaps" />
             <option value="$PROJECT_DIR$/Problems/Out of bounds_" />
             <option value="$PROJECT_DIR$/Problems/Palindrome" />
+            <option value="$PROJECT_DIR$/Problems/Remove the same" />
             <option value="$PROJECT_DIR$/Problems/Return empty string when argument is null" />
             <option value="$PROJECT_DIR$/Problems/The fair exchange" />
             <option value="$PROJECT_DIR$/Problems/The first day of a month or not" />
             <option value="$PROJECT_DIR$/Problems/Throw a checked exception" />
             <option value="$PROJECT_DIR$/Problems/Throw an unchecked exception" />
+            <option value="$PROJECT_DIR$/Problems/Transfer both lists" />
             <option value="$PROJECT_DIR$/Simple Chatty Bot/task" />
             <option value="$PROJECT_DIR$/util" />
           </set>
