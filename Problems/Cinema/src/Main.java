@@ -19,45 +19,61 @@ class Main {
         int howManyTickers = sc.nextInt();
         int counter = 0;
         int moreThanOne = 0;
-        int answer = 0;
         int currentRow = 0;
-
+        boolean stopCounting = false;
+        int answer = 0;
 
         for (int i = 0; i < cinema.length; i++) {
             for (int j = 0; j < cinema[i].length - 1; j++) {
 
-                if (i != currentRow) {
-                    counter = 0;
-                    moreThanOne = 0;
-                    currentRow++;
-                }
-
-                if (cinema[i][j] == 0) {
-                    counter++;
-                    if (cinema[i][j + 1] == 0) {
-
-                        moreThanOne++;
+                if (howManyTickers == 1) {
 
 
-                        if (moreThanOne + 1 >= howManyTickers) {
-
-                            System.out.println(+(currentRow + 1));
-                            break;
-
-                        }
-
+                    if (stopCounting != true) {
+                        answer = (currentRow + 1);
                     }
-                }
+                    stopCounting = true;
+                } else {
 
+
+                    if (i != currentRow) {
+                        counter = 0;
+                        moreThanOne = 0;
+                        currentRow++;
+                    } else {
+
+                        if (cinema[i][j] == 0) {
+                            counter++;
+
+                            if (cinema[i][j + 1] == 0) {
+                                moreThanOne++;
+
+                                if (moreThanOne + 1 >= howManyTickers) {
+
+                                    // System.out.println("udało się: "+(currentRow + 1));
+
+                                    if (stopCounting != true) {
+                                        answer = (currentRow + 1);
+                                    }
+                                    stopCounting = true;
+
+
+                                }
+
+                            }
+                        }
+                    }
+
+
+                }
 
             }
-
-
         }
 
-        if(moreThanOne + 1 <howManyTickers){
-            System.out.println(0);
-        }
+
+        System.out.println(answer != 0 ? answer : 0);
+
+
     }
 }
 
