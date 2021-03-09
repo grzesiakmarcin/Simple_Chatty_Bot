@@ -62,6 +62,7 @@ class Main {
 
                             if(max==howManyTickersNeeded&& stopSearching!=true){
                                 seekedRow=(currentRow+1);
+
                                 stopSearching=true;
                             }
 
@@ -81,8 +82,6 @@ class Main {
 
 
         System.out.println(seekedRow);
-
-
 
     }
 }
