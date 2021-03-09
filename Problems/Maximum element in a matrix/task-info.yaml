@@ -9,10 +9,6 @@ files:
         }
     }
   learner_created: false
-feedback_link: https://hyperskill.org/learn/step/1930#comment
-status: Failed
-feedback:
-  message: |
-    Failed test #3 of 15. Wrong answer
-  time: Tue, 09 Mar 2021 15:33:23 UTC
+feedback_link: https://hyperskill.org/learn/step/1937#comment
+status: Unchecked
 record: -1
