@@ -16,21 +16,24 @@ class Main {
         }
 
 
-        int howManyTickers = sc.nextInt();
-        int counter = 0;
-        int moreThanOne = 0;
+        int howManyTickersNeeded = sc.nextInt();
+        int avaliableSeatsNextToEachOther = 0;
+
         int currentRow = 0;
         boolean stopSearching = false;
-        int answer = 0;
+        boolean anotherSeatIsFree=false;
+        int seekedRow = 0;
+               int max=-1;
+
 
         for (int i = 0; i < cinema.length; i++) {
             for (int j = 0; j < cinema[i].length - 1; j++) {
 
-                if (howManyTickers == 1) {
+                if (howManyTickersNeeded == 1) {
                     if (cinema[i][j] == 0) {
 
                         if (stopSearching != true) {
-                            answer = (currentRow + 1);
+                            seekedRow = (currentRow + 1);
                         }
                         stopSearching = true;
                     }
@@ -38,29 +41,36 @@ class Main {
 
 
                     if (i != currentRow) {
-                        counter = 0;
-                        moreThanOne = 0;
+                        avaliableSeatsNextToEachOther = 0;
                         currentRow++;
 
                     } else {
 
-                        if (cinema[i][j] == 0) {
-                            counter++;
-                            if (cinema[i][j + 1] == 0) {
-                                moreThanOne++;
-                                if ((moreThanOne + 1) == howManyTickers) {
+                        anotherSeatIsFree = cinema[i][j] == 0 && cinema[i][j+1] == 0;
 
 
-                                    if (stopSearching != true) {
-                                        answer = (currentRow + 1);
-                                    }
-                                    stopSearching = true;
+                        if (anotherSeatIsFree == true) {
+
+                            avaliableSeatsNextToEachOther++;
+
+                            if(avaliableSeatsNextToEachOther==1){
+                                avaliableSeatsNextToEachOther++;}
 
 
-                                }
-
+                            if (avaliableSeatsNextToEachOther > max) {
+                                max = avaliableSeatsNextToEachOther;
                             }
+
+                            if(max==howManyTickersNeeded){
+                                seekedRow=(currentRow+1);
+                            }
+
+
+
+                        } else {
+                            avaliableSeatsNextToEachOther = 0;
                         }
+
                     }
 
 
@@ -70,8 +80,8 @@ class Main {
         }
 
 
-        System.out.println(answer);
-      //  System.out.println(answer != 0 ? answer : 0);
+        System.out.println(seekedRow);
+
 
 
     }
