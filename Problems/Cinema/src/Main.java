@@ -60,8 +60,9 @@ class Main {
                                 max = avaliableSeatsNextToEachOther;
                             }
 
-                            if(max==howManyTickersNeeded){
+                            if(max==howManyTickersNeeded&& stopSearching!=true){
                                 seekedRow=(currentRow+1);
+                                stopSearching=true;
                             }
 
 
